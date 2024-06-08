@@ -1,0 +1,40 @@
+:root {
+    background-color: #FFDE95;
+}
+
+button {
+    margin-inline: 0.1rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    padding: 3rem;
+    cursor: pointer;
+    background-color: #ADD899;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #92C785;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #7AB073;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(0.98);
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
